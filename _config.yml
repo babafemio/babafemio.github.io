@@ -10,7 +10,7 @@ permalink:        pretty
 title:            babafemio
 tagline:          'Written in code'
 description:      'Written in code, sealed in ink'
-url:              http://babafemio.com
+url:              https://babafemio.github.io
 baseurl:          /
 
 author:
@@ -36,4 +36,4 @@ excerpt_separator: <!--more-->
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/babafemio/babafemio.github.io

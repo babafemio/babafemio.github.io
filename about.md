@@ -19,7 +19,7 @@ This blog is my platform to share insights gained through years in engineering, 
 I enjoy traveling, when I can afford it and some of the pictures you would see on this blog are from those trips. I enjoy making my own 'clear' ice and cocktail. Haven't done this in a while, but perhaps I would get inspired soon. Just recently, I got taken with Formula 1, thanks to Netflix's Drive to Survive. The passion looks like it's here to stay!
 
 * The blog was built with [Jekyll](https://jekyllrb.com/). Don’t ask me why I chose to punish myself. But something about opening an IDE weekly helps to keep me anchored to this tech life… 
-* If you want to take a peak at source code, you can find it on my [GitHub](https://github.com/babafemio/babafemio.com-jk) and hosted **free of charge** on [GitHub Pages](https://pages.github.com/). 
+* If you want to take a peak at source code, you can find it on my [GitHub](https://github.com/babafemio/babafemio.github.io) and hosted **free of charge** on [GitHub Pages](https://pages.github.com/). 
 * The website and was designed and developed by mostly while listening to [Diana Ross](https://www.dianaross.com/).
 
 Have questions or suggestions? Feel free to [reach out to me on Twitter](https://twitter.com/babafemio).
