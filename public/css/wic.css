@@ -1,0 +1,60 @@
+.post-featured-image-caption {
+    font-size: 75%;
+    color: #808080;
+    text-align: center;
+}
+
+.post-featured-image {
+    margin-bottom: 0;
+}
+
+.sidebar {
+    position: fixed;
+    padding: 0;
+}
+
+.sidebar-image {
+    opacity: 0.6;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.sidebar-about h1 {
+    margin-bottom: 0;
+    font-size: 30px;
+}
+
+.sidebar-about h1 a {
+    text-decoration: none;
+}
+
+.lead {
+    font-size: 16px;
+    font-style: italic;
+    color: white;
+    font-weight: bold;
+}
+
+.intro {
+    font-size: 18px;
+    color: white;
+    /* color: rgba(255, 255, 255, .7); */
+}
+
+.socials {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.socials-item {
+    margin-right: 10px;
+}
+
+.copyright {
+    font-size: 12px;
+    margin-bottom: 0;
+}

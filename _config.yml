@@ -1,0 +1,39 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+#relative_permalinks: true
+
+# Setup
+title:            babafemio
+tagline:          'Written in code'
+description:      'Written in code, sealed in ink'
+url:              http://babafemio.com
+baseurl:          /
+
+author:
+  name:           'Babafemi Ogungbamila'
+  url:            https://twitter.com/babafemio
+
+#paginate:         5
+
+pagination:
+  enabled: true
+  debug: false
+  collections: 'posts'
+  per_page: 5
+  permalink: '/page/:num/'
+  
+#Plugins
+plugins: [jekyll-paginate-v2]
+
+# Other variables
+excerpt_separator: <!--more-->
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
