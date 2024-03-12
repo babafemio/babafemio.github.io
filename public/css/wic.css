@@ -29,7 +29,7 @@
         top: 0;
         left: 0;
         bottom: 0;
-        width: 30%;
+        width: 390px;
         padding: 0;
     }
     
@@ -121,12 +121,12 @@ footer {
     }
 }
 
-
+/*
 .content {
     float: left;
     clear: both;
-
 }
+*/
 
 @media (min-width: 1024px) {
 
