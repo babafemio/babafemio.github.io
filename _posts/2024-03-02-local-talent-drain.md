@@ -3,7 +3,7 @@ layout: post
 title: Local talent drain
 tags: talent engineering technology
 image: /public/images/rome-colosseum-april-2023.png
-image-caption: Colosseum, April 2023. @babafemio
+image-caption: Arco di Constantino, April 2023. @babafemio
 ---
 
 I have been leading engineering and technology teams for almost two decades, and what I see as the biggest challenge facing our industry when it comes to engineering and technology talent is losing them to managerial roles (that don't allow them continue to improve their skills or practice their craft) or even worse to non-engineering/technology roles.
