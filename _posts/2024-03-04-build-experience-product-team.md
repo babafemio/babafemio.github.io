@@ -2,8 +2,8 @@
 layout: post
 title: Build experience in a product team
 tags: talent engineering technology
-image: /public/images/cathedral-square-april-2024.jpg
-image-caption: Cathedral Square, April 2024. @babafemio
+image: /public/images/paris-eiffel-tower-nov-2022.png
+image-caption: Eiffel Tower, November 2022. @babafemio
 ---
 
 From time to time, I interview talent for engineering or technology positions. No matter how many years they lay claim to on their resume, if they have not spent time working in a structured environment, it shows. Yes, the raw talent would shine through clearly, but something about them screams, 'not worked within an organized team.' It signals the presence of some potential gaps in the ability of the engineer to fit in the team or signals a gap in the actual work experience.

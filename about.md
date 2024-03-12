@@ -1,11 +1,11 @@
 ---
 layout: page
 title: About me
-image: /public/images/cathedrale-dela-major-april-2024.jpg
+image: /public/images/cathedrale-dela-major-april-2023.jpg
 image-caption: Cathedrale de la Major, April 2024. @babafemio
 ---
 
-![Cathedrale de la Major, April 2024. @babafemio](/public/images/cathedrale-dela-major-april-2024.jpg "Cathedrale de la Major, April 2024. @babafemio")
+![Cathedrale de la Major, April 2024. @babafemio](/public/images/cathedrale-dela-major-april-2023.jpg "Cathedrale de la Major, April 2024. @babafemio")
 
 Hello there! I'm Babafemi Ogungbamila. I am an engineer at heart and have spent over two decades building systems and leading engineering and technology teams to build platforms that power the most critical payment infrastructures.
 

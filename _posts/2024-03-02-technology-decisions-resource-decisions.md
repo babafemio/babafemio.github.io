@@ -2,8 +2,8 @@
 layout: post
 title: Technology decisions are resource decisions
 tags: talent engineering technology
-image: /public/images/cathedral-square-april-2024.jpg
-image-caption: Cathedral Square, April 2024. @babafemio
+image: /public/images/marseille-port-april-2023.png
+image-caption: Marseille Port, April 2023. @babafemio
 ---
 
 If you've been around the block in the world of engineering and technology projects, you would have undoubtedly gone through phases of those project where you obsessed over best choice of operating system, technology stack, database, etc. If you are very good at your job, you probably would have employed a more scientific approach like decision matrix that helps capture the specific benefits of each option so it is very clear how the decision is arrived at. Yet even in our most scientific endeavors, there is always an element of bias. Whether it's a fondness for the familiar or a devotion to the tech 'cult' we proudly belong to.

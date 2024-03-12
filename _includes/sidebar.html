@@ -1,5 +1,6 @@
 <div class="sidebar">
   <div class="sidebar-image" style="background-image: url({{ include.img | uri_escape }});"></div>
+  <div class="sidebar-overlay"></div>
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
@@ -27,11 +28,12 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </nav>
 
     {% include social-media-links.html %}
 
-    <p class="copyright">&copy; {{ site.time | date: '%Y' }}. Babafemi Ogungbamila. All rights reserved.</p>
   </div>
 </div>

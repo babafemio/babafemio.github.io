@@ -8,25 +8,72 @@
     margin-bottom: 0;
 }
 
+
 .sidebar {
-    position: fixed;
-    padding: 0;
+    text-align: left;
+}
+
+
+@media (max-width: 48em) {
+    .sidebar {
+        position: relative;
+        background-color: rgba(22, 27, 33, .6);
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    .sidebar {
+        position: fixed;
+        overflow: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 30%;
+        padding: 0;
+    }
+    
 }
 
 .sidebar-image {
-    opacity: 0.6;
     height: 100%;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -2000;
 }
+
+@media only screen and (max-width: 48em) {
+    .sidebar-image {
+        opacity: 1;
+        /*mix-blend-mode: screen;*/
+    }
+}
+
+
+footer {
+    position: relative;
+    float: left;
+    clear: both;
+    width: 100%;
+
+}
+
 
 .sidebar-about h1 {
     margin-bottom: 0;
     font-size: 30px;
+    color: white;
 }
 
 .sidebar-about h1 a {
     text-decoration: none;
+    pointer-events: auto;
 }
 
 .lead {
@@ -37,7 +84,7 @@
 }
 
 .intro {
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     /* color: rgba(255, 255, 255, .7); */
 }
@@ -47,7 +94,12 @@
     padding: 0;
     margin: 0;
     display: flex;
-    margin-bottom: 40px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .socials {
+        margin-bottom: 40px;
+    }
 }
 
 .socials-item {
@@ -55,6 +107,41 @@
 }
 
 .copyright {
-    font-size: 12px;
+    display: block;
+    font-size: 13px;
     margin-bottom: 0;
+    color: #abb7b7;
+    padding: 40px;
 }
+
+
+@media only screen and (min-width: 1024px) {
+    footer {
+        padding-left: 30%;
+    }
+}
+
+
+.content {
+    float: left;
+    clear: both;
+
+}
+
+@media (min-width: 1024px) {
+
+    .sidebar-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgba(22, 27, 33, .6);
+    }
+}
+
+.sidebar-nav .icon {
+    display: none;
+}
+
+
