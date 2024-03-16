@@ -111,15 +111,15 @@ footer {
     font-size: 13px;
     margin-bottom: 0;
     color: #abb7b7;
-    padding: 40px;
+    /* padding: 40px; */
 }
 
 
-@media only screen and (min-width: 1024px) {
+/* @media only screen and (min-width: 48em) {
     footer {
         padding-left: 30%;
     }
-}
+} */
 
 /*
 .content {
@@ -128,7 +128,7 @@ footer {
 }
 */
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
 
     .sidebar-overlay {
         position: absolute;

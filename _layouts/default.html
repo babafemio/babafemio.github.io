@@ -9,14 +9,17 @@
 
     <div class="content container">
       {{ content }}
+
+      <footer class="footer">
+        <div>
+          <p class="copyright">&copy; {{ site.time | date: '%Y' }}. Babafemi Ogungbamila. All rights reserved.</p>
+        </div>
+      </footer>
+
     </div>
 
 
-    <footer class="footer">
-      <div>
-        <p class="copyright">&copy; {{ site.time | date: '%Y' }}. Babafemi Ogungbamila. All rights reserved.</p>
-      </div>
-    </footer>
+
 
   </body>
 </html>
