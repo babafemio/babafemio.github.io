@@ -2,15 +2,15 @@
 layout: post
 title: Building a learning culture and loving it
 tags: talent engineering technology learning
-image: /public/images/paris-eiffel-tower-nov-2022.png
-image-caption: Eiffel Tower, November 2022. @babafemio
+image: /public/images/diamond-leisure-ukunda-oct-2023.png
+image-caption: Diamond Leisure Beach, Ukunda, October 2023. @babafemio
 ---
 
 In today's fast-paced business environment, organizations must adapt quickly to change and stay ahead of the competition. One way to achieve this is by building a learning culture within the organization. A learning culture prioritizes continuous learning and development, encouraging team members to constantly learn new skills and develop their expertise.
 
 <!--more-->
 
-Here are some examples of how building a learning culture can benefit an organization:
+Here are some examples of how building a learning culture can benefit you and your team:
 
 ### Overcoming obstacles
 When working on complex projects, teams that are constantly learning and not afraid to dive into the details of a specific problem are more likely to find a solution faster and with greater efficiency. With a learning culture, the team can get stuck, and the project can thrive. However, with a learning culture, the team can immerse itself in study and collaboration to navigate the problem and develop innovative solutions.
