@@ -3,6 +3,7 @@ layout: post
 title: Local talent drain
 tags: talent engineering technology
 image: /public/images/rome-colosseum-april-2023.png
+description: Learn effective strategies to retain top engineering talent, leveraging insights from industry luminaries like Scott Hanselman and Jeff Dean. Discover how to nurture and retain experienced engineers for sustainable growth in the technology sector
 image-caption: Arco di Constantino, April 2023. @babafemio
 ---
 

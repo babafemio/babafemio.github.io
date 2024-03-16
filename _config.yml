@@ -9,13 +9,14 @@ permalink:        pretty
 # Setup
 title:            'Written in code'
 tagline:          'Written in code, sealed in ink'
-description:      'Written in code, sealed in ink'
+description:      'Discover expert insights on engineering leadership, technology stacks, talent development, and learning cultures. Unlock strategies for success in the ever-evolving tech landscape'
 url:              https://babafemio.com
 baseurl:          /
 
 author:
   name:           'Babafemi Ogungbamila'
-  url:            https://twitter.com/babafemio
+  url:            https://babafemio.com
+  twitter:        babafemio
 
 #paginate:         5
 
@@ -27,7 +28,9 @@ pagination:
   permalink: '/page/:num/'
   
 #Plugins
-plugins: [jekyll-paginate-v2]
+plugins: 
+  - jekyll-paginate-v2
+  - jekyll-seo-tag
 
 # Other variables
 excerpt_separator: <!--more-->
@@ -37,3 +40,16 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/babafemio/babafemio.github.io
+
+# Social
+social:
+  name: Babafemi Ogungbamila
+  links:
+    - https://www.twitter.com/babafemio
+    - https://www.instagram.com/babafemio
+    - https://linkedin.com/in/babafemio
+
+
+twitter:
+  username: babafemio
+  card: summary

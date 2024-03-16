@@ -3,6 +3,7 @@ layout: post
 title: Build experience in a product team
 tags: talent engineering technology
 image: /public/images/paris-eiffel-tower-nov-2022.png
+description: Unlock the potential of structured work environments in fostering engineering talent and collaborative growth. Explore the transformative impact of structured experiences on skill development and professional advancement in engineering roles
 image-caption: Eiffel Tower, November 2022. @babafemio
 ---
 

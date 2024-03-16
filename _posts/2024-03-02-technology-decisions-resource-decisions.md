@@ -3,6 +3,7 @@ layout: post
 title: Technology decisions are resource decisions
 tags: talent engineering technology
 image: /public/images/marseille-port-april-2023.png
+description: Navigate the complexities of technology stack selection with a focus on balancing technical merit and skill availability for project success. Gain insights into optimizing technology choices for long-term viability and efficiency in engineering projects
 image-caption: Marseille Port, April 2023. @babafemio
 ---
 

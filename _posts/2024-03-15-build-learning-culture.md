@@ -3,6 +3,7 @@ layout: post
 title: Building a learning culture and loving it
 tags: talent engineering technology learning
 image: /public/images/diamond-leisure-ukunda-oct-2023.png
+description: Explore the benefits of cultivating a learning culture within organizations, driving innovation, productivity, and talent retention. Discover how fostering a culture of continuous learning can propel organizations to success in today's fast-paced business environment
 image-caption: Diamond Leisure Beach, Ukunda, October 2023. @babafemio
 ---
 
