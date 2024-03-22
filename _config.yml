@@ -23,6 +23,7 @@ author:
 pagination:
   enabled: true
   debug: false
+  sort_reverse: true
   collections: 'posts'
   per_page: 10
   permalink: '/page/:num/'
