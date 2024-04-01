@@ -2,9 +2,9 @@
 layout: post
 title: DevOps without the culture is sysadmin
 tags: devops engineering culture
-image: /public/images/diamond-leisure-ukunda-oct-2023.png
+image: /public/images/alexander-third-bridge-april-2023.png
 description: Transform your business with DevOps, a collaborative approach to software delivery, but beware of its pitfalls. Treat DevOps as a culture, not just tasks, and focus on collaboration, monitoring, and continuous improvement for success
-image-caption: Diamond Leisure Beach, Ukunda, October 2023. @babafemio
+image-caption: Alexander III Bridge, Paris, October 2023. @babafemio
 ---
 
 As businesses work hard to find ways to increase their efficiency and speed of delivery, they have turned to DevOps, a popular approach to software engineering and product delivery. It brings together development and operations to create a seamless process that results in faster delivery, higher quality, and better collaboration between teams. However DevOps does not always deliver on the promised and the core reason is that DevOps is not always being treated as a culture but a role or even worse a set of tasks. 
