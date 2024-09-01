@@ -144,4 +144,31 @@ footer {
     display: none;
 }
 
+/* for two-column text or text and image */
+
+.two-column {
+    display: flex;
+    flex-wrap: wrap; /* Allows columns to wrap */
+    gap: 20px; /* Adds space between the columns */
+    align-items: center; 
+}
+
+.column {
+    flex: 1; /* Makes each column take equal space */
+    min-width: 250px; /* Prevents columns from getting too small */
+}
+
+
+@media (max-width: 600px) {
+    .two-column {
+      flex-direction: column; /* Stack columns vertically on small screens */
+    }
+}
+
+.quote {
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+
 
