@@ -2,9 +2,9 @@
 layout: post
 title: Finding purpose in our daily acts
 tags: purpose inspiration reflections growth meaning love grace
-image: /public/images/f1-qualys-spa-july2024.png
+image: /public/images/westlandgracht-amsterdam-july-2024.png
 description: Explore the profound connection between daily life and faith in uncovering purpose. This blog reflects on how seemingly mundane routines can hold divine significance. Discover the power of small actions to inspire, uplift, and guide others spiritually. Learn how to be a light that leads hearts closer to God.
-image-caption: F1 Qualifiers, Spa, July 2024. @babafemio
+image-caption: Westlandgracht, Amsterdam, July 2024. @babafemio
 ---
 
 We all face moments when life's purpose seems to elude us, when the daily toils of existence prompt us to ask: "What is this all for?" My journey to understanding purpose came through two distinct revelations, separated by time but connected by a profound truth about why we're here.
