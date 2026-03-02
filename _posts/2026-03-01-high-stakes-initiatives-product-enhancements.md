@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Treating High-Stakes Initiatives as Product Enhancements
+title: High-stakes initiatives as product enhancements
 categories: engineering-leadership product-management digital-transformation
 tags: infrastructure governance value-realisation decision-making
 image: /public/images/vltava-river-prague-january-2026.jpg
