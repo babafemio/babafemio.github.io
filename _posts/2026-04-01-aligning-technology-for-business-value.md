@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Aligning technology for business value
-categories: technology, engineering-leadership, product-management
-tags: technology, alignment, business-value, digital-transformation, product-market-fit, benefits-realisation, leadership, strategy, outcomes, value-creation
+categories: technology engineering-leadership product-management
+tags: technology alignment business-value digital-transformation product-market-fit benefits-realisation leadership strategy outcomes value-creation
 image: /public/images/outdoor-cafe-amsterdam-november-2025.png
 description: Why technology rarely fails on its own, but misalignment between tech investments and business outcomes often does. Exploring product-market fit for internal systems and the importance of benefits realisation.
 image-caption: Cafe, Amsterdam, November 2025 @babafemio
