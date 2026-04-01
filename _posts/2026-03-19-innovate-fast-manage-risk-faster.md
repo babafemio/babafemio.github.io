@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Innovate fast, manage risk faster
-categories: technology security ai
-tags: ai-tools opencode privacy risk-management llm ai-agents data-security free-tier hidden-costs
+tags: technology security ai ai-tools opencode privacy risk-management llm ai-agents data-security free-tier hidden-costs
 image: /public/images/charles-bridge-museum-prague-january-2026.png
 description: Exploring the tension between rapid AI innovation and security, revealing how free AI tools can expose your system to unexpected data collection risks.
 image-caption: Charles Bridge Museum, Prague, January 2026 @babafemio

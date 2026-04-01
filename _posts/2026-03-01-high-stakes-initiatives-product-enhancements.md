@@ -1,8 +1,7 @@
 ---
 layout: post
 title: High-stakes initiatives as product enhancements
-categories: engineering-leadership product-management digital-transformation
-tags: infrastructure governance value-realisation decision-making
+tags: engineering-leadership product-management digital-transformation infrastructure governance value-realisation decision-making
 image: /public/images/vltava-river-prague-january-2026.jpg
 description: Learn why treating high-stakes technology initiatives as product enhancements drives success. Discover three critical lessons on value realisation, product ownership, and governance that accelerate decision-making and deliver measurable business outcomes.
 image-caption: Vltava River, Prague, January 2026 @babafemio
