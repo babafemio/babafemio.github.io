@@ -23,7 +23,6 @@ Upon receiving inputs, immediately execute:
 ---
 layout: post
 title: [Title]
-categories: [auto-detect 2-4 categories - space separated]
 tags: [auto-detect 8-12 tags - space separated]
 image: /public/images/[processed-filename].png
 description: [auto-generated 1-2 sentence summary]
@@ -79,23 +78,15 @@ rm /tmp/original.png /tmp/rotated.png /tmp/cropped.png /tmp/resized.png
 - File size: < 1MB (typically 700-900KB)
 - Format: PNG (compressed with pngquant)
 
-#### 3. Categorization Rules
+#### 3. Tag Rules
 
-**Detect and assign from this taxonomy:**
-
-**Categories** (pick 2-4):
-- `technology` - for AI, tools, infrastructure posts
-- `security` - for privacy, data protection, risk posts  
-- `ai` - for LLM, machine learning, automation posts
-- `engineering-leadership` - for management, teams, culture posts
-- `product-management` - for roadmap, features, product posts
-
-**Tags** (generate 8-12):  
+**Generate 8-12 relevant tags:**
 Include specific terms mentioned in content + these standards:
 - Tool names (e.g., opencode, jekyll, docker)
 - Technology terms (e.g., llm, ai-agents, infrastructure)
 - Concept tags (e.g., privacy, risk-management, data-security)
 - Action tags (e.g., free-tier, hidden-costs, due-diligence)
+- Category-equivalent tags (e.g., technology, security, ai, engineering-leadership, product-management)
 
 #### 4. Image Naming & Caption Format
 
