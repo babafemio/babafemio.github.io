@@ -43,19 +43,34 @@ sips -s format png [input] --out /tmp/original.png
 sips -g creation [input] | grep "creation:"
 # Extract month and year from format: YYYY:MM:DD HH:MM:SS
 # Example output: "creation: 2025:11:21 14:14:40" → "November 2025"
+
+# Get GPS location data for filename and caption
+mdls [input] | grep -E "kMDItemLatitude|kMDItemLongitude"
+# Use coordinates to determine location (e.g., Prague, Amsterdam, etc.)
+# If GPS data unavailable, ask user for location description
 ```
 
-**Step A2 - Orient (if needed):**
+**Step A2 - Orient (Check Phone View):**
 ```bash
-# Check dimensions - if image appears wrong on phone, rotate to match phone view
-# For iPhone HEIC: rotate -90 degrees (270) to make it portrait as seen on phone
-sips -r -90 /tmp/original.png --out /tmp/rotated.png
+# Check current dimensions
+file /tmp/original.png
+
+# iPhone HEIC portrait photos often appear as landscape after conversion
+# If the image shows as landscape (wider than tall) but should be portrait:
+sips -r 90 /tmp/original.png --out /tmp/rotated.png
+
+# Verify orientation matches phone view before proceeding
 ```
-Note: HEIC files from iPhones often need rotation to match how they appear on the device. If the image appears correctly after conversion, skip this step and use `/tmp/original.png` in subsequent steps. If rotated, use `/tmp/rotated.png` instead.
+**Rotation Rule:** If image appears upside-down after +90°, use `-90` instead. Always verify orientation matches how it appears on the phone before cropping.
+
+**Next step:** If rotated, use `/tmp/rotated.png` in subsequent steps. If not rotated, use `/tmp/original.png`.
 
 **Step B - Crop:**
 ```bash
-sips -c 1500 3000 /tmp/rotated.png --out /tmp/cropped.png
+# Get image dimensions first to calculate 2:1 crop
+# For portrait images (taller than wide), maintain full width, height = width/2
+# For landscape images (wider than tall), maintain full height, width = height*2
+sips -c 2142 4284 /tmp/rotated.png --out /tmp/cropped.png
 ```
 
 **Step C - Resize:**
@@ -92,16 +107,17 @@ Include specific terms mentioned in content + these standards:
 
 **Filename Pattern:**
 ```
-[location]-[description]-[month]-[year].png
+[location]-[month]-[year].png
 ```
 - All lowercase
 - Use hyphens as separators
 - Month and year from image metadata creation date
+- Location from GPS metadata or user-provided description
 
 **Examples:**
 - `outdoor-cafe-amsterdam-november-2025.png`
 - `charles-bridge-museum-prague-january-2026.png`
-- `cathedrale-de-la-major-april-2024.png`
+- `old-town-prague-january-2026.png`
 
 **Caption Format:**
 ```
@@ -174,6 +190,19 @@ Image: ~/Downloads/IMG_5111.HEIC
 - Always compress with pngquant --quality 80-95
 - Never skip the crop-then-resize sequence
 
+**For link formatting:**
+- Convert bare URLs to Markdown hyperlinks: `[anchor text](url)`
+- Anchor text should describe the content being linked (not just "click here")
+- For external links, add `{:target="_blank"}` attribute: `[text](url){:target="_blank"}`
+- Example: `[opportunity cost of compute](https://stratechery.com/...){:target="_blank"}`
+
 **For deployment:**
 - Only commit files in `_posts/` and `public/images/`
 - Never commit .DS_Store, Gemfile.lock, or other system files
+
+**Pre-processing verification:**
+Before executing image processing pipeline, verify:
+1. Extract location from GPS metadata (use `mdls` if `exiftool` unavailable)
+2. Confirm rotation direction by checking image orientation against expected phone view
+3. Calculate crop dimensions based on actual image dimensions (not fixed values)
+4. If GPS data is missing, pause and ask user for location description
